@@ -39,3 +39,4 @@ obs: esta tabela contem um pequeno erro que sera arrumado no prox release.
 
 
 v0.1
+By Lucas R.
