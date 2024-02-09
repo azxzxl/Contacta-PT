@@ -1,0 +1,41 @@
+Utilize este manual para ter um uso otimizado da ferramenta
+
+1. clique em "Abrir arquivo" para selecionar a proposta tecnica
+
+2. apos selecionar, va ate a aba "Ediçao de Documento" na parte superior
+
+3. Prencha as substituiçoes da forma que deseja
+
+4. Passo a passo para preenchimento da tabela de controle:
+	
+	a. No espaço de texto PEQUENO, insira a quantidade de linhas da tabela que deseja preencher
+	b. Clique em "Preencher" 
+	c. As informaçoes devem ser separadas por virgula, onde cada virgula equivale a separaçao de coluna na tabela. Exemplo: v1,DATA,observaçao
+	d. Clique em "OK" e podera vizualizar no espaço de texto grande o que sera inserido na tabela
+
+
+5. Passo a passo para preenchimento da tabela de Produtos
+obs: esta tabela contem um pequeno erro que sera arrumado no prox release.
+
+	a. No espaço de texto PEQUENO, voce ira inserir um numero A MAIS de quantidades de linha que deseja. A primeira linha sera nula, por tanto, preencha com 1,xxx,xxx,xxx
+	d. Clique em "Preencher" 
+	b. As informaçoes devem ser separadas por virgula, onde cada virgula equivale a separaçao de coluna na tabela.
+	c. Para essa tabela sera necessario a adiçao do numero da respectiva coluna, por exemplo: 1(que indica que é a coluna 1 que esta sendo preenchida),Part. number,descriçao,qtd	
+	f. Clique em "OK" e podera vizualizar no espaço de texto grande o que sera inserido na tabela (lembrando q a primeira linha NAO sera inserida)
+
+
+6. Passo a passo para preenchimento da tabela de serviços
+
+	a. No espaço de texto PEQUENO, insira a quantidade de linhas da tabela que deseja preencher
+	b. Clique em "Preencher" 
+	c. As informaçoes devem ser separadas por virgula, onde cada virgula equivale a separaçao de coluna na tabela.
+	c. Para essa tabela sera necessario a adiçao do numero da respectiva coluna, por exemplo: 1(que indica que é a coluna 1 que esta sendo preenchida),descriçao,Part. number,qtd
+	d. Clique em "OK" e podera vizualizar no espaço de texto grande o que sera inserido na tabela	
+
+7. Apos preencher tudo, so basta clicar no botao "Clique aq para gerar o novo documento" e pronto. Seu arquivo modificado sera gerado.
+
+
+
+
+
+v0.1
