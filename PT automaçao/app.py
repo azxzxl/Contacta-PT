@@ -84,7 +84,7 @@ def processar_documento():
                 dados_para_tabela_servicos
             )
             messagebox.showinfo(
-                "Sucesso", "O documento foi processado com sucesso!")
+                "Sucesso", "Pronto! ta na mao chefe :)")
         except Exception as e:
             messagebox.showerror("Erro", str(e))
     else:
@@ -92,7 +92,7 @@ def processar_documento():
 
 
 root = tk.Tk()
-root.title("Processador de Documentos")
+root.title("Automatização - Proposta tecnica :)")
 
 # Criação do Notebook
 notebook = ttk.Notebook(root)
@@ -106,6 +106,20 @@ entry_caminho.grid(row=0, column=1, padx=5, pady=5)
 btn_abrir_arquivo = tk.Button(
     frame_aba1, text="Abrir Arquivo", command=abrir_arquivo)
 btn_abrir_arquivo.grid(row=1, column=0, columnspan=2, pady=5)
+
+
+# Definir uma fonte personalizada
+fonte_instrucoes = ("Helvetica", 12, "bold")
+fonte_detalhes = ("Helvetica", 10)
+
+
+# Criar label para as instruções
+instrucoes_label = tk.Label(frame_aba1, text="#AlwaysGetBetter", font=fonte_instrucoes)
+instrucoes_label.grid(row=2, column=0, columnspan=2, pady=240)
+
+# Criar label para as instruções detalhadas
+instrucoes_detalhadas = tk.Label(frame_aba1, text="Contacta", justify="left", font=fonte_detalhes)
+instrucoes_detalhadas.grid(row=4, column=0, columnspan=2, pady=10)
 
 # Adiciona a primeira aba ao notebook
 notebook.add(frame_aba1, text="Seleção de Arquivo")
@@ -183,7 +197,7 @@ entry_tabela_servicos.grid(row=12, column=0, columnspan=3, padx=5, pady=5)
 
 # Botão para processar o documento
 btn_processar = tk.Button(
-    frame_aba2, text="Processar Documento", command=processar_documento)
+    frame_aba2, text="Clique aq para gerar o novo documento", command=processar_documento)
 btn_processar.grid(row=13, column=0, columnspan=3, pady=10)
 
 # Adiciona a segunda aba ao notebook
@@ -193,7 +207,7 @@ notebook.add(frame_aba2, text="Edição de Documento")
 notebook.pack(expand=True, fill="both")
 
 # Rodapé
-rodape = tk.Label(root, text="Versão 0.1 - Desenvolvido por Lucas R.")
+rodape = tk.Label(root, text="v0.1 - Desenvolvido por Lucas R.")
 rodape.pack(side="bottom", pady=5)
 
 root.mainloop()
